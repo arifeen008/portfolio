@@ -1,9 +1,10 @@
 import ProjectCard from './ProjectCard';
 
 // รูปภาพตัวอย่าง (ควร import จาก assets)
-import ImgProject1 from '../assets/images/project-image-1.jpeg';
-import ImgProject2 from '../assets/images/project-image-2.jpeg';
-import ImgProject3 from '../assets/images/project-image-3.jpeg';
+import ImgProject1 from '../assets/images/project-image-1.png';
+import ImgProject2 from '../assets/images/project-image-2.png';
+import ImgProject3 from '../assets/images/project-image-3.png';
+import ImgProject4 from '../assets/images/project-image-4.png';
 
 // ข้อมูลโปรเจกต์ตัวอย่าง
 const myProjects = [
@@ -34,7 +35,7 @@ const myProjects = [
   {
     title: 'Online Bookstore System',
     description: 'An e-commerce platform for browsing, searching, and purchasing books online. Features a shopping cart and checkout process.',
-    imageUrl: ImgProject1,
+    imageUrl: ImgProject4,
     tags: ['Laravel', 'MDBootstrap', 'JavaScript','Mysql'],
     repoUrl: 'https://github.com/arifeen008/bookstore',
     liveUrl: '',
