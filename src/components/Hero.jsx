@@ -16,19 +16,7 @@ const Hero = () => {
         </h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
           a Full-Stack Web Developer specializing in Laravel and React. I am passionate about building modern, high-performance web applications that deliver efficient, scalable solutions and exceptional user experiences.
-        </p>
-
-        {/* ส่วนปุ่ม (Call to Action) */}
-        <div className="mt-8 space-x-4">
-          <a
-            href={MyResume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-white font-semibold rounded-lg shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300"
-          >
-            Download CV
-          </a>
-        </div>
+        </p>        
       </div>
 
       {/* ส่วนรูปภาพ */}
