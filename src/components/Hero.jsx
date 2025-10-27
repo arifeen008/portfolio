@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImage from "../assets/images/profile-pic.jpg"; // Import รูป
+import ProfileImage from "../assets/images/profile-pic.png"; // Import รูป
 import MyResume from "../assets/resume/MyResume.pdf"; // Import Resume
 
 const Hero = () => {
