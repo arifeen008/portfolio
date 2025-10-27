@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileImage from "../assets/images/profile-pic.jpg"; // Import รูป
-import ResumePDF from "../assets/resume/YourName_CV.pdf"; // Import Resume
+import MyResume from "../assets/resume/MyResume.pdf"; // Import Resume
 
 const Hero = () => {
   return (
@@ -9,25 +9,19 @@ const Hero = () => {
       {/* ส่วนข้อความ */}
       <div className="md:w-1/2 text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400">
-          สวัสดีครับ, ผม นายอารีฟีน กุลดี
+          Arifeen Kundee
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mt-2">
           Web Developer (Laravel & React)
         </h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
-          นักพัฒนาที่มุ่งเน้นการสร้างเว็บแอปพลิเคชันที่มีประสิทธิภาพและประสบการณ์ผู้ใช้ที่ดี
+          a Full-Stack Web Developer specializing in Laravel and React. I am passionate about building modern, high-performance web applications that deliver efficient, scalable solutions and exceptional user experiences.
         </p>
 
         {/* ส่วนปุ่ม (Call to Action) */}
         <div className="mt-8 space-x-4">
           <a
-            href="#contact"
-            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
-          >
-            ติดต่อฉัน
-          </a>
-          <a
-            href={ResumePDF}
+            href={MyResume}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-white font-semibold rounded-lg shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300"

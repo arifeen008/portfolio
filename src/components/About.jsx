@@ -8,7 +8,7 @@ const About = () => {
       </h2>
       <p className="text-lg text-gray-600 dark:text-gray-400 space-y-4 leading-relaxed">
         <p>
-         Hello! I'm a Web Developer passionate about creating impactful technologies 
+        Web Developer passionate about creating impactful technologies 
           and efficient solutions. I specialize in backend development 
           with **Laravel** and frontend development with **React**.
         </p>
