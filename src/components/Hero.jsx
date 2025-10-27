@@ -26,7 +26,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="px-6 py-3 bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-white font-semibold rounded-lg shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300"
           >
-            ดาวน์โหลด CV
+            Download CV
           </a>
         </div>
       </div>
